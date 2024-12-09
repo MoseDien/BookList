@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		28EC2D532D05B20C00D673E9 /* MBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EC2D522D05B20C00D673E9 /* MBookTableViewCell.swift */; };
+		28EC2D552D05B22B00D673E9 /* MBookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EC2D542D05B21600D673E9 /* MBookListViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		28EC2CD12D05571D00D673E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		28EC2CBA2D05571900D673E9 /* BookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EC2CD02D05571D00D673E9 /* BookStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EC2CDA2D05571D00D673E9 /* BookStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EC2D522D05B20C00D673E9 /* MBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBookTableViewCell.swift; sourceTree = "<group>"; };
+		28EC2D542D05B21600D673E9 /* MBookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBookListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +95,7 @@
 		28EC2CB12D05571800D673E9 = {
 			isa = PBXGroup;
 			children = (
+				28EC2D502D05B1DD00D673E9 /* ManualLayout */,
 				28EC2CBC2D05571900D673E9 /* BookStore */,
 				28EC2CD32D05571D00D673E9 /* BookStoreTests */,
 				28EC2CDD2D05571D00D673E9 /* BookStoreUITests */,
@@ -103,6 +111,15 @@
 				28EC2CDA2D05571D00D673E9 /* BookStoreUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		28EC2D502D05B1DD00D673E9 /* ManualLayout */ = {
+			isa = PBXGroup;
+			children = (
+				28EC2D542D05B21600D673E9 /* MBookListViewController.swift */,
+				28EC2D522D05B20C00D673E9 /* MBookTableViewCell.swift */,
+			);
+			path = ManualLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28EC2D552D05B22B00D673E9 /* MBookListViewController.swift in Sources */,
+				28EC2D532D05B20C00D673E9 /* MBookTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
